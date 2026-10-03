@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Well, actually</title>
+  <meta name="description" content="A daily card game about the things every programmer believes about time, text, numbers, names, and money. Every card proves itself with code that runs in your browser.">
+  <meta name="theme-color" content="#f5efe3" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#15171c" media="(prefers-color-scheme: dark)">
+  <meta property="og:title" content="Well, actually">
+  <meta property="og:description" content="Every day has 24 hours. Names fit in ASCII. 0.1 + 0.2 === 0.3. Ten cards a day; every one proves itself in your browser.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://omshiv.github.io/well-actually/">
+  <meta property="og:image" content="https://omshiv.github.io/well-actually/docs/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='10' y='4' width='44' height='56' rx='8' fill='%23fffdf8' stroke='%231c1d21' stroke-width='5'/%3E%3Ctext x='32' y='43' font-family='Georgia,serif' font-size='30' font-style='italic' text-anchor='middle' fill='%23d9480f'%3Ea.%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="top">
+    <a class="wordmark" href="#/">Well, <em>actually.</em></a>
+    <nav class="nav" aria-label="Main">
+      <a href="#/" data-nav="today">Today</a>
+      <a href="#/practice" data-nav="practice">Practice</a>
+      <a href="#/deck" data-nav="deck">The deck</a>
+      <a href="#/about" data-nav="about">About</a>
+    </nav>
+  </header>
+
+  <main id="app" tabindex="-1">
+    <noscript><p class="noscript">Well, actually needs JavaScript. Every card proves itself by running code in your browser.</p></noscript>
+  </main>
+
+  <footer class="foot">
+    <p>Made by <a href="https://github.com/OmShiv">OmShiv</a>. <a href="https://github.com/OmShiv/well-actually">Source on GitHub</a>. Inspired by the <a href="https://github.com/kdeldycke/awesome-falsehood">awesome-falsehood</a> list and the essays it collects.</p>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script type="module" src="src/app.js"></script>
+</body>
+</html>
