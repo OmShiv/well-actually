@@ -1,0 +1,13 @@
+{
+  "name": "well-actually",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A card game about the things every programmer believes. Every card proves itself in your browser.",
+  "type": "module",
+  "scripts": {
+    "test": "node --test test/*.test.js",
+    "start": "python3 -m http.server 8080"
+  },
+  "author": "OmShiv",
+  "license": "MIT"
+}
