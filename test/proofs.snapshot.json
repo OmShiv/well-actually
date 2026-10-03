@@ -1,0 +1,379 @@
+{
+  "every-day-has-24-hours": {
+    "lines": [
+      "Mar 8, 2026, 12:00:00 AM EST",
+      "Mar 9, 2026, 1:00:00 AM EDT",
+      "Nov 1, 2026, 12:00:00 AM EDT",
+      "Nov 1, 2026, 11:00:00 PM EST"
+    ],
+    "error": null
+  },
+  "every-minute-has-60-seconds": {
+    "lines": [
+      "NaN",
+      "1483228799",
+      "1483228800"
+    ],
+    "error": null
+  },
+  "time-zones-are-whole-hours": {
+    "lines": [
+      "Asia/Kolkata GMT+05:30",
+      "Asia/Kathmandu GMT+05:45",
+      "Australia/Eucla GMT+08:45",
+      "Pacific/Chatham GMT+13:45"
+    ],
+    "error": null
+  },
+  "offsets-stop-at-12": {
+    "lines": [
+      "Etc/GMT+12 GMT-12:00",
+      "Pacific/Tongatapu GMT+13:00",
+      "Pacific/Kiritimati GMT+14:00"
+    ],
+    "error": null
+  },
+  "dst-is-one-hour": {
+    "lines": [
+      "Australia/Lord_Howe GMT+11:00 GMT+10:30",
+      "Antarctica/Troll GMT+00:00 GMT+02:00"
+    ],
+    "error": null
+  },
+  "divisible-by-4-is-leap": {
+    "lines": [
+      "2024 true",
+      "2100 false",
+      "2000 true"
+    ],
+    "error": null
+  },
+  "year-2000-was-a-leap-year": {
+    "lines": [
+      "Tue Feb 29 2000",
+      "Thu Mar 01 1900"
+    ],
+    "error": null
+  },
+  "january-is-month-zero": {
+    "lines": [
+      "Thu Jan 01 2026",
+      "Sun Feb 01 2026",
+      "Fri Jan 01 2027"
+    ],
+    "error": null
+  },
+  "adding-a-month": {
+    "lines": [
+      "Tue Mar 03 2026"
+    ],
+    "error": null
+  },
+  "local-times-happen-once": {
+    "lines": [
+      "1:30:00 AM EDT",
+      "1:30:00 AM EST",
+      "1:59:59 AM EST",
+      "3:00:00 AM EDT"
+    ],
+    "error": null
+  },
+  "same-date-everywhere": {
+    "lines": [
+      "Etc/GMT+12 Mar 1, 2026, 11:30 PM",
+      "UTC Mar 2, 2026, 11:30 AM",
+      "Pacific/Kiritimati Mar 3, 2026, 1:30 AM"
+    ],
+    "error": null
+  },
+  "toisostring-is-today": {
+    "lines": [
+      "3/10/2026, 9:30:00 PM",
+      "2026-03-11"
+    ],
+    "error": null
+  },
+  "timestamps-fit-in-32-bits": {
+    "lines": [
+      "2147483647",
+      "-2147483648"
+    ],
+    "error": null
+  },
+  "time-zones-never-change": {
+    "lines": [
+      "Thursday, December 29, 2011 at 11:00 AM",
+      "Saturday, December 31, 2011 at 11:00 AM"
+    ],
+    "error": null
+  },
+  "utc-has-no-dst": {
+    "lines": [
+      "UTC GMT+00:00 GMT+00:00",
+      "London GMT+00:00 GMT+01:00"
+    ],
+    "error": null
+  },
+  "january-1-is-week-1": {
+    "lines": [
+      "Fri, 01 Jan 2027",
+      "Its week belongs to 2026"
+    ],
+    "error": null
+  },
+  "point-one-plus-point-two": {
+    "lines": [
+      "0.30000000000000004",
+      "false",
+      "true"
+    ],
+    "error": null
+  },
+  "every-integer-fits": {
+    "lines": [
+      "9007199254740992",
+      "9007199254740992",
+      "true",
+      "9007199254740993n"
+    ],
+    "error": null
+  },
+  "round-half-away": {
+    "lines": [
+      "3",
+      "-2",
+      "-3"
+    ],
+    "error": null
+  },
+  "equal-to-itself": {
+    "lines": [
+      "false",
+      "-1 true",
+      "true true"
+    ],
+    "error": null
+  },
+  "zero-and-negative-zero": {
+    "lines": [
+      "true",
+      "false",
+      "Infinity -Infinity",
+      "0 -0"
+    ],
+    "error": null
+  },
+  "tofixed-rounds": {
+    "lines": [
+      "1.00",
+      "1.0049999999999998934"
+    ],
+    "error": null
+  },
+  "number-reads-commas": {
+    "lines": [
+      "NaN",
+      "12",
+      "12,5"
+    ],
+    "error": null
+  },
+  "germany-writes-1-5": {
+    "lines": [
+      "en-US 1,234,567.5",
+      "de-DE 1.234.567,5",
+      "de-CH 1'234'567.5",
+      "en-IN 12,34,567.5"
+    ],
+    "error": null
+  },
+  "sort-sorts-numbers": {
+    "lines": [
+      "[1, 10, 9]",
+      "[1, 9, 10]"
+    ],
+    "error": null
+  },
+  "parseint-tiny": {
+    "lines": [
+      "5e-7",
+      "5",
+      "0"
+    ],
+    "error": null
+  },
+  "math-max-empty": {
+    "lines": [
+      "-Infinity",
+      "Infinity",
+      "-Infinity"
+    ],
+    "error": null
+  },
+  "typeof-nan": {
+    "lines": [
+      "number",
+      "false true"
+    ],
+    "error": null
+  },
+  "ten-less-than-nine": {
+    "lines": [
+      "true",
+      "false",
+      "false"
+    ],
+    "error": null
+  },
+  "same-looking-strings-are-equal": {
+    "lines": [
+      "café café",
+      "false",
+      "true"
+    ],
+    "error": null
+  },
+  "length-counts-characters": {
+    "lines": [
+      "5",
+      "3",
+      "1"
+    ],
+    "error": null
+  },
+  "reverse-a-string": {
+    "lines": [
+      "noël",
+      "l̈eon"
+    ],
+    "error": null
+  },
+  "uppercase-keeps-length": {
+    "lines": [
+      "STRASSE",
+      "6 7"
+    ],
+    "error": null
+  },
+  "lowercase-is-one-letter": {
+    "lines": [
+      "i̇ 2",
+      "false",
+      "i"
+    ],
+    "error": null
+  },
+  "sort-is-alphabetical": {
+    "lines": [
+      "['Zoë', 'apple', 'zebra', 'Émile']",
+      "['apple', 'Émile', 'zebra', 'Zoë']"
+    ],
+    "error": null
+  },
+  "alphabet-is-universal": {
+    "lines": [
+      "['ödla', 'zebra']",
+      "['zebra', 'ödla']"
+    ],
+    "error": null
+  },
+  "one-character-one-byte": {
+    "lines": [
+      "1 2 3 4"
+    ],
+    "error": null
+  },
+  "invisible-characters": {
+    "lines": [
+      "hello hel​lo",
+      "5 6 false"
+    ],
+    "error": null
+  },
+  "case-insensitive-compare": {
+    "lines": [
+      "false",
+      "true"
+    ],
+    "error": null
+  },
+  "names-are-ascii": {
+    "lines": [
+      "Zoë Saldaña false",
+      "Nguyễn Thị Minh Khai false",
+      "Øyvind false",
+      "Đorđe false",
+      "王菲 false"
+    ],
+    "error": null
+  },
+  "postcodes-are-numbers": {
+    "lines": [
+      "SW1A 1AA NaN",
+      "K1A 0B1 NaN",
+      "01001 1001",
+      "110001 110001"
+    ],
+    "error": null
+  },
+  "country-names-are-fixed": {
+    "lines": [
+      "SZ Eswatini",
+      "MK North Macedonia",
+      "CZ Czechia"
+    ],
+    "error": null
+  },
+  "two-decimal-places": {
+    "lines": [
+      "USD 2 $1,234.57",
+      "JPY 0 ¥1,235",
+      "KWD 3 KWD 1,234.568"
+    ],
+    "error": null
+  },
+  "symbol-goes-first": {
+    "lines": [
+      "en-US €123,456.78",
+      "de-DE 123.456,78 €",
+      "fr-FR 123 456,78 €",
+      "en-IN €1,23,456.78"
+    ],
+    "error": null
+  },
+  "money-as-floats": {
+    "lines": [
+      "0.9999999999999999 false",
+      "1"
+    ],
+    "error": null
+  },
+  "phone-numbers-are-numbers": {
+    "lines": [
+      "2079460018",
+      "12 digits"
+    ],
+    "error": null
+  },
+  "urls-are-case-insensitive": {
+    "lines": [
+      "https://example.com/Docs/Readme?Q=1"
+    ],
+    "error": null
+  },
+  "default-port-is-same-url": {
+    "lines": [
+      "http://example.com/",
+      "https://example.com/",
+      "https://example.com:80/"
+    ],
+    "error": null
+  },
+  "ip-addresses-have-four-numbers": {
+    "lines": [
+      "[2001:db8::1]",
+      "8080"
+    ],
+    "error": null
+  }
+}
